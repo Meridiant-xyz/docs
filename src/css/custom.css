@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap');
+
+:root {
+  --meridiant-bg: #f6f6f4;
+  --meridiant-surface: #ffffff;
+  --meridiant-line: #e2e2de;
+  --meridiant-text: #16181e;
+  --meridiant-muted: #5c616b;
+  --meridiant-signal: #5f7a2e;
+
+  --ifm-color-primary: #5f7a2e;
+  --ifm-color-primary-dark: #556c29;
+  --ifm-color-primary-darker: #506627;
+  --ifm-color-primary-darkest: #425420;
+  --ifm-color-primary-light: #6a8833;
+  --ifm-color-primary-lighter: #6f8e36;
+  --ifm-color-primary-lightest: #80a244;
+
+  --ifm-font-family-base: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --ifm-font-family-monospace: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --ifm-heading-font-family: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --ifm-heading-font-weight: 600;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.65;
+  --ifm-code-font-size: 90%;
+  --ifm-global-radius: 4px;
+  --ifm-navbar-height: 64px;
+  --ifm-background-color: #f6f6f4;
+  --ifm-background-surface-color: #ffffff;
+  --ifm-navbar-background-color: #f6f6f4;
+  --ifm-footer-background-color: #0a0b0d;
+  --ifm-footer-color: #8a8f98;
+  --ifm-footer-link-color: #f2f0ea;
+  --ifm-footer-title-color: #8a8f98;
+  --ifm-link-color: var(--ifm-color-primary);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.06);
+}
+
+[data-theme='dark'] {
+  --meridiant-bg: #0a0b0d;
+  --meridiant-surface: #121418;
+  --meridiant-line: #24272e;
+  --meridiant-text: #f2f0ea;
+  --meridiant-muted: #8a8f98;
+  --meridiant-signal: #a8b454;
+
+  --ifm-color-primary: #a8b454;
+  --ifm-color-primary-dark: #9aa64a;
+  --ifm-color-primary-darker: #919c45;
+  --ifm-color-primary-darkest: #788039;
+  --ifm-color-primary-light: #b3be68;
+  --ifm-color-primary-lighter: #c2ce7a;
+  --ifm-color-primary-lightest: #d0d994;
+
+  --ifm-background-color: #0a0b0d;
+  --ifm-background-surface-color: #121418;
+  --ifm-navbar-background-color: rgba(10, 11, 13, 0.88);
+  --ifm-navbar-shadow: 0 1px 0 #24272e;
+  --ifm-font-color-base: #f2f0ea;
+  --ifm-heading-color: #f2f0ea;
+  --ifm-menu-color: #8a8f98;
+  --ifm-menu-color-active: #f2f0ea;
+  --ifm-toc-link-color: #8a8f98;
+  --ifm-hr-background-color: #24272e;
+  --ifm-color-emphasis-300: #24272e;
+  --ifm-hover-overlay: rgba(168, 180, 84, 0.08);
+  --ifm-table-border-color: #24272e;
+  --docusaurus-highlighted-code-line-bg: rgba(168, 180, 84, 0.12);
+}
+
+html,
+body {
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: #a8b454;
+  color: #0a0b0d;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--meridiant-line);
+}
+
+.navbar__title {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.navbar__logo {
+  height: 22px;
+}
+
+.navbar__link,
+.menu__link {
+  font-size: 14px;
+}
+
+.footer {
+  border-top: 1px solid #24272e;
+}
+
+.footer__title {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.footer__copyright {
+  font-size: 13px;
+  color: #55595f;
+}
+
+.markdown h1:first-child {
+  letter-spacing: -0.03em;
+}
+
+.markdown h2 {
+  letter-spacing: -0.02em;
+  margin-top: 2.4rem;
+}
+
+.markdown table {
+  display: table;
+  width: 100%;
+}
+
+.theme-doc-markdown {
+  max-width: 52rem;
+}
+
+.breadcrumbs__link {
+  font-size: 13px;
+}
+
+.pagination-nav__label {
+  font-weight: 500;
+}
+
+.menu__list-item-collapsible .menu__link {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--meridiant-muted);
+}
+
+.docusaurus-mermaid-container {
+  margin: 1.5rem 0 2rem;
+}
