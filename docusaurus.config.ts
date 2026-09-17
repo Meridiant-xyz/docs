@@ -119,7 +119,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} Catalyst Labs L.L.C-FZ. Meridiant is a trade name of Catalyst Labs L.L.C-FZ.`,
+      copyright: `© ${new Date().getFullYear()} Catalyst Labs L.L.C-FZ.`,
     },
     prism: {
       theme: prismThemes.github,

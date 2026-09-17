@@ -52,7 +52,7 @@ The site is hosted as a GitHub Pages project at [`Meridiant-xyz/docs`](https://g
 | `docs/how-it-works.md` | The lending loop |
 | `docs/markets.md` | Isolated markets |
 | `docs/supplying.md` / `borrowing.md` / `liquidation.md` | User flows |
-| `docs/who-is-involved.md` | Roles and Catalyst Labs |
+| `docs/who-is-involved.md` | Roles |
 | `docs/what-we-are-building.md` | Product path |
 | `docs/getting-started.md` | Invite-gated access |
 

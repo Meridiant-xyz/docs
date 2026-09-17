@@ -47,5 +47,3 @@ Self-custodial wallet signing — you hold the key, we still settle through our 
 | Product | [meridiant.xyz](https://meridiant.xyz) |
 | These docs | [docs.meridiant.xyz](https://docs.meridiant.xyz) |
 | Canton | [canton.network](https://www.canton.network/) |
-
-Meridiant is a trade name of Catalyst Labs L.L.C-FZ, Dubai.
