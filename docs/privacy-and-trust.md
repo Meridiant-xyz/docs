@@ -1,6 +1,6 @@
 ---
 title: Privacy and trust
-description: Positions are private by default. The operator is bounded. Collateral stays borrower-owned. Mainnet is intended to be self-custodial at the key layer.
+description: Positions are private by default. The operator is bounded. Collateral stays borrower-owned. Self-custody at the key layer is the next step.
 ---
 
 # Privacy and trust
@@ -39,7 +39,7 @@ Honesty is not free.
 - **Market parameters at creation.** If a market is listed with reckless loan-to-value or a broken rate curve, the ledger will enforce those parameters faithfully. Parameter governance with delays is a later-product item.
 - **The oracle's print.** Freshness and signatures stop a random party from feeding a price. They do not stop a corrupt oracle from publishing a wrong one. That is why degraded-price mode refuses to liquidate.
 - **Operational liveness.** Locks expire. The operator (and the borrower) must renew them. Neglect ends a loan early; it does not let the operator take more than is owed.
-- **Who holds keys, in early networks.** On current test environments, Meridiant hosts the user's Canton party so the product can be used without a wallet round-trip. That is custody of the *key*, not of the *collateral*. The ledger still refuses a healthy seizure. **Mainnet is intended to reverse this:** users hold their own keys, and Meridiant never submits as them.
+- **Who holds keys, today.** During invite-only access, including on mainnet, Meridiant hosts the user's Canton party and signing key so the product can be used without a wallet round-trip. That is custody of the *key*, not of the *collateral*. The ledger still refuses a healthy seizure. **The next step reverses this:** users hold their own keys, and Meridiant never submits as them.
 
 ## How to read "non-custodial"
 
@@ -48,6 +48,6 @@ Two different things get called custody:
 | | On the ledger today | At the key layer |
 |---|---|---|
 | **Collateral** | Borrower-owned throughout. The protocol reserves it; it does not take title. | Unchanged. |
-| **Your signing key** | Early networks: hosted by the app so UX can be one-click. | Mainnet target: your wallet signs. We host the party on our validator; we do not hold the key. |
+| **Your signing key** | Today (invite-only mainnet): hosted by the app so UX can be one-click. | Next step: your wallet signs. We host the party on our validator; we do not hold the key. |
 
 The first is a protocol property and is already true. The second is a product path. [What we are building](./what-we-are-building.md) is explicit about where we are on that path.

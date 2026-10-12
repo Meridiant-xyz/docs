@@ -52,7 +52,7 @@ const paths = [
     href: '/docs/what-we-are-building',
     kicker: 'The path',
     title: 'What we are building',
-    body: 'A working protocol now. Invite-gated networks next. Self-custodial mainnet after that.',
+    body: 'Live on Canton mainnet, invite-only today. Self-custodial wallet signing next.',
   },
 ];
 

@@ -54,6 +54,6 @@ The site is hosted as a GitHub Pages project at [`Meridiant-xyz/docs`](https://g
 | `docs/supplying.md` / `borrowing.md` / `liquidation.md` | User flows |
 | `docs/who-is-involved.md` | Roles |
 | `docs/what-we-are-building.md` | Product path |
-| `docs/getting-started.md` | Invite-gated access |
+| `docs/getting-started.md` | Invite-only access |
 
 Brand assets are copied from `meridiant-site`. Keep the olive (`#A8B454`) and ink/paper palette; do not recolor the mark.

@@ -85,6 +85,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          href: 'https://app.meridiant.xyz',
+          label: 'App',
+          position: 'right',
+        },
+        {
           href: 'https://meridiant.xyz',
           label: 'meridiant.xyz',
           position: 'right',
@@ -116,6 +121,13 @@ const config: Config = {
           items: [
             {label: 'Canton Network', href: 'https://www.canton.network/'},
             {label: 'Why Canton', to: '/docs/why-canton'},
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {label: 'X (Twitter)', href: 'https://x.com/meridiantxyz'},
+            {label: 'GitHub', href: 'https://github.com/Meridiant-xyz'},
           ],
         },
       ],

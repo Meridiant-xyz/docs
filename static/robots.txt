@@ -1,0 +1,5 @@
+# https://docs.meridiant.xyz — public documentation for Meridiant, isolated-market lending on Canton Network.
+User-agent: *
+Allow: /
+
+Sitemap: https://docs.meridiant.xyz/sitemap.xml

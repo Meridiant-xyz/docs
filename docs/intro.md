@@ -14,6 +14,10 @@ It is over-collateralized credit, not a pooled money market in the Ethereum sens
 
 Isolated-market lending, engineered for Canton — position privacy by default, atomic settlement, and no shared risk across markets.
 
+## Where it stands
+
+Meridiant is live on Canton mainnet and invite-only today: the app hosts your Canton party and signing key, and self-custodial wallet signing is the next step. See [Getting started](./getting-started.md) for the access model and [What we are building](./what-we-are-building.md) for the path.
+
 ## Who it is for
 
 Meridiant is built for people and institutions who want to lend or borrow Canton-native assets without publishing their book to the world. Funds, desks, and market makers that will not put size on a transparent chain are the reason the design looks the way it does.

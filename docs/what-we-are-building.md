@@ -1,13 +1,13 @@
 ---
 title: What we are building
-description: A Canton-native isolated lending venue — working protocol now, invite-gated networks next, self-custodial mainnet after that.
+description: A Canton-native isolated lending venue — live on Canton mainnet and invite-only today, self-custodial wallet signing next.
 ---
 
 # What we are building
 
 Meridiant is a Morpho-style isolated lending venue, purpose-built for Canton. The protocol is real: supply, borrow, repay, liquidate, prices, and rates, against Canton-native tokens — not a slide deck of intended mechanics.
 
-We are taking that protocol from internal networks to a venue other people can use.
+Meridiant is live on Canton mainnet and invite-only today: the app hosts your Canton party and signing key, and self-custodial wallet signing is the next step.
 
 ## What exists today
 
@@ -28,15 +28,16 @@ One market, done properly, is the unit. More markets are copies of that unit, no
 
 | Stage | What it is for |
 |---|---|
-| **Internal networks** | Prove the protocol, the app, and operations against a real validator. |
-| **Testnet** | Invite-gated access. Real token-standard assets. The same code paths mainnet will use. Not a demo with mock shortcuts. |
-| **Mainnet** | Production venue. Users hold their own keys. Markets listed deliberately. |
+| **Internal networks** | Proved the protocol, the app, and operations against a real validator. Done. |
+| **Testnet** | Invite-only rehearsal on real token-standard assets, on the same code paths mainnet uses. Done. |
+| **Mainnet, invite-only (now)** | Production venue on Canton mainnet. Access is by invite. The app hosts your Canton party and signing key. Markets listed deliberately. |
+| **Mainnet, self-custodial (next)** | Same venue. Your wallet signs; we still settle through our validator. |
 
-Testnet is the last rehearsal. Anything that only works because it is a test environment is treated as a defect.
+Anything that only works because it is a test environment is treated as a defect, and nothing on mainnet relies on a test shortcut.
 
-Access stays invite-gated until we are ready for open registration. [Getting started](./getting-started.md) is the honest current answer.
+Access stays invite-only until we are ready for open registration. [Getting started](./getting-started.md) is the honest current answer.
 
-## What mainnet is aiming at
+## What comes next on mainnet
 
 - **Self-custody at the key layer.** Your wallet signs; we still settle through our validator. The lending rules do not change — only who holds the key.
 - **More than one market.** Independent books, listed as the asset set and the risk parameters justify them.
@@ -44,7 +45,7 @@ Access stays invite-gated until we are ready for open registration. [Getting sta
 
 ## What we are not rushing
 
-- Public, open signup on day one of a test network.
+- Public, open signup before the venue is ready for it.
 - A protocol fee switch or incentive program as the growth engine. Rewards on Canton, if and when they accrue to the venue, are a byproduct of real lending activity — not a farm we optimize the product around.
 - Term loans, leverage vaults, and multi-collateral in a single market. Those are later phases.
 - Governance theatre. Market listing and parameters are operator decisions until there is a reason for them not to be.

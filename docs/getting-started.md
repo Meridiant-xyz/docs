@@ -1,11 +1,13 @@
 ---
 title: Getting started
-description: Meridiant is invite-gated. This page is how to think about joining as a supplier, borrower, or partner — not a public signup flow.
+description: Meridiant is live on Canton mainnet and invite-only. This page is how to think about joining as a supplier, borrower, or partner — not a public signup flow.
 ---
 
 # Getting started
 
-Meridiant is not an open app you sign up for from the internet today. Access is invite-gated. The operator issues access, you create an account, and a Canton identity is allocated for you.
+Meridiant is live on Canton mainnet and invite-only today: the app hosts your Canton party and signing key, and self-custodial wallet signing is the next step.
+
+It is not an open app you sign up for from the internet. The operator issues access, you create an account, and a Canton identity is allocated for you.
 
 If you have not been invited, there is nothing to configure. Start at [meridiant.xyz](https://meridiant.xyz) and talk to the team.
 
@@ -36,14 +38,15 @@ Read [Borrowing](./borrowing.md) and [Liquidation](./liquidation.md) before you 
 
 ## If you want to integrate
 
-Programmatic users (market makers and similar) can use the same venue with an API key instead of the web session. That is still invite-gated, and it is still the same markets.
+Programmatic users (market makers and similar) can use the same venue with an API key instead of the web session. That is still invite-only, and it is still the same markets.
 
-Self-custodial wallet signing — you hold the key, we still settle through our validator — is the mainnet direction, not the current onboarding path. See [What we are building](./what-we-are-building.md).
+Self-custodial wallet signing — you hold the key, we still settle through our validator — is the next step, not the current onboarding path. See [What we are building](./what-we-are-building.md).
 
 ## Links
 
 | | |
 |---|---|
 | Product | [meridiant.xyz](https://meridiant.xyz) |
+| App | [app.meridiant.xyz](https://app.meridiant.xyz) |
 | These docs | [docs.meridiant.xyz](https://docs.meridiant.xyz) |
 | Canton | [canton.network](https://www.canton.network/) |

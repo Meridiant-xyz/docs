@@ -18,7 +18,7 @@ Meridiant is a venue, not a single account. Different people show up with differ
 
 You can be more than one of these. A desk that supplies in one market and borrows in another is two roles, two positions, not a special account type.
 
-Market makers and other programmatic users use the same markets. During early access they may authenticate with an API key instead of the web app; the lending itself does not change.
+Market makers and other programmatic users use the same markets. While access is invite-only they may authenticate with an API key instead of the web app; the lending itself does not change.
 
 ## People who run the venue
 
